@@ -3,6 +3,4 @@ export interface navLink {
   title: string;
 }
 
-export interface navLinkList {
-  navLink: { path: string; title: string }[];
-}
+export interface navLinkList extends Array<navLink>{}
