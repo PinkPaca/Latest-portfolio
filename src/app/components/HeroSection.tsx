@@ -12,7 +12,7 @@ const HeroSection = (props: Props) => {
         <div className="md:col-span-7 mx-10">
           <h1 className="text-primary-color font-serif text-center lg:text-start mb-4 text-6xl font-extrabold">
             <span className="">
-              Hello, I'm
+              Hello, I&apos;m
               <br />
             </span>
             <TypeAnimation
