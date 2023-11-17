@@ -35,7 +35,7 @@ function AboutSection({}: Props) {
         <div className="grid grid-cols-1 md:grid-cols-3 justify-evenly flex-wrap mt-10">
           <div className="md:col-span-1">
             <h2 className="font-serif text-4xl text-center mb-2">Skill Set</h2>
-            <div className="flex flex-wrap">
+            <div className="flex flex-wrap justify-center">
               {skillSet.map((skill: string, index: number) => {
                 return (
                   <SkillIcon
