@@ -13,12 +13,12 @@ export default function MenuOverlay(props: IMenuOverlayProps) {
     setChecked(event.target.checked);
   };
   return (
-    <div className="flex flex-col py-4 items-center bg-secondary-color bg-opacity-50">
+    <div className="fixed w-[100%] pt-[100px] flex flex-col py-4 items-center bg-secondary-color bg-opacity-90">
       {props.links.map((link: navLink, index: number) => {
         return (
           <ul
             key={index}
-            className="hover:bg-secondary-color w-[100%] text-center"
+            className="hover:bg-basic-color rounded w-[100%] text-center"
           >
             <NavLink href={link.path} title={link.title} />
           </ul>

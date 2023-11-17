@@ -36,7 +36,7 @@ const Navbar = (props: Props) => {
   };
   return (
     <nav>
-      <div className="md:fixed top-0 left-0 right-0 bg-opacity-90 z-10 bg-basic-color">
+      <div className="fixed top-0 left-0 right-0 bg-opacity-90 z-10 bg-basic-color">
         <div className="flex flex-wap item-center justify-between mx-auto px-4 py-2 mb-0">
           <Link href={'/'}>
             <Image
