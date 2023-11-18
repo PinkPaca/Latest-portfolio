@@ -19,7 +19,7 @@ const HeroSection = (props: Props) => {
               sequence={['Rucy', 2000, 'Junior Developer', 2000]}
               wrapper="span"
               speed={50}
-              className="text-[35px] md:text-[40px] lg:text-[50px]"
+              className="text-[35px] md:text-[35px] lg:text-[50px]"
               repeat={Infinity}
             />
           </h1>
