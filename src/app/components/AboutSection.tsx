@@ -25,17 +25,17 @@ function AboutSection({}: Props) {
       <div className="p-5">
         <h1 className="text-center text-6xl font-serif">About me</h1>
         <p className="my-4">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+          {/* Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
           eiusmod tempor incididunt ut labore et dolore magna aliqua. Nisi est
           sit amet facilisis magna etiam. Vel eros donec ac odio. Sodales neque
           sodales ut etiam sit amet nisl purus. Viverra accumsan in nisl nisi.
           Ultricies integer quis auctor elit sed vulputate mi sit. Fermentum
-          posuere urna nec tincidunt praesent.
+          posuere urna nec tincidunt praesent. */}
         </p>
         <div className="grid grid-cols-1 md:grid-cols-3 justify-evenly flex-wrap mt-10">
           <div className="md:col-span-1">
             <h2 className="font-serif text-4xl text-center mb-2">Skill Set</h2>
-            <div className="flex flex-wrap justify-center">
+            <div className="flex flex-wrap justify-center mb-4">
               {skillSet.map((skill: string, index: number) => {
                 return (
                   <SkillIcon

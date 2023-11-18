@@ -23,17 +23,19 @@ const HeroSection = (props: Props) => {
               repeat={Infinity}
             />
           </h1>
-          <p className="text-primary-color font-serif mt-5 text-lg lg:text-xl text-start sm:text-center">
+          <p className="text-primary-color font-serif mt-5 text-lg lg:text-xl text-start ">
             I am a motivated and ambitious junior developer who is continuously
             growing in my skills and knowledge. As an active and responsible
             employee, I strive to contribute effectively to the tasks at hand.
           </p>
           <div className="my-5 flex lg:flex-row justify-evenly flex-col ">
             <button className="shadow-pop-tr lg:w-[50%] px-6 py-3 rounded-full mr-0 mb-3 lg:mb-0 lg:mr-4 font-serif font-bold text-basic-color bg-quaternary-color border-solid border-2 border-quaternary-color ">
-              Hire Me
+              <a href="mailto: fmadkdl113@gmail.com">Hire Me</a>
             </button>
             <button className="shadow-pop-tr lg:w-[50%] px-6 py-3 rounded-full font-serif font-bold text-quaternary-color border-solid border-2 border-quaternary-color">
-              Download CV
+              <a href="/이력서이아름.pdf" download={'이력서이아름.pdf'}>
+                Download CV
+              </a>
             </button>
           </div>
         </div>
