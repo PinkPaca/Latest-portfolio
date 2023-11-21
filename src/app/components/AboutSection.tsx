@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import SkillIcon from './SkillIcon';
 
 type Props = {};
@@ -21,7 +21,10 @@ const skillSet: string[] = [
 
 function AboutSection({}: Props) {
   return (
-    <section className="text-basic-color bg-primary-color">
+    <section
+      id="about"
+      className="text-basic-color bg-primary-color scroll-mt-[70px]"
+    >
       <div className="p-5">
         <h1 className="text-center text-6xl font-serif">About me</h1>
         <p className="my-4">
@@ -67,7 +70,7 @@ function AboutSection({}: Props) {
               </p>
             </div>
             <div className="border-2 border-quaternary-color rounded-md p-4 my-3">
-              <h4 className="font-serif text-4xl text-start">
+              <h4 className="font-serif text-3xl text-start">
                 HyperionDev, London
               </h4>
               <h5 className="font-serif text-xl text-start">Data Science</h5>

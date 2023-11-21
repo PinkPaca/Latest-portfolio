@@ -10,7 +10,7 @@ const HeroSection = (props: Props) => {
     <section>
       <div className="grid gird-cols-1 mt-[80px] md:grid-cols-12 lg:grid-cols-12 my-8">
         <div className="md:col-span-7 mx-2 lg:mx-10">
-          <h1 className="text-primary-color font-serif text-center lg:text-start mb-4 text-5xl font-extrabold">
+          <h1 className="text-primary-color font-serif text-center lg:text-start mb-4 text-4xl lg:text-5xl font-extrabold">
             <span className="">
               Hello, I&apos;m
               <br />

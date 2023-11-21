@@ -8,7 +8,10 @@ type Props = projectInfo;
 
 function ProjectCard({ title, imgurl, tag, date, url }: Props) {
   return (
-    <div className="shadow-drop-center flex flex-col justify-center text-center bg-primary-color text-basic-color p-6 m-2 rounded-lg w-[380px] h-[350px]">
+    <div
+      id="projects"
+      className="scroll-mt-[180px] shadow-drop-center flex flex-col justify-center text-center bg-primary-color text-basic-color p-6 m-2 rounded-lg w-[380px] h-[350px]"
+    >
       <h2 className="text-2xl mb-2 font-serif">{title}</h2>
       <Image
         src={`/images/projects-imgs/${imgurl}`}
